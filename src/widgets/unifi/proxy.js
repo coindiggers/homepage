@@ -8,7 +8,7 @@ import { addCookieToJar, setCookieHeader } from "utils/proxy/cookie-jar";
 import { httpProxy } from "utils/proxy/http";
 import widgets from "widgets/widgets";
 
-const udmpPrefix = "/proxy/network";
+const udmpPrefix = "";
 const proxyName = "unifiProxyHandler";
 const prefixCacheKey = `${proxyName}__prefix`;
 const logger = createLogger(proxyName);
